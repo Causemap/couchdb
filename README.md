@@ -10,6 +10,6 @@ Installation
 
 ```bash
 $ git submodule init
-$ docker build -t causemap/couchdb-xo_auth .
-$ docker run -p 5984:5984 causemap/couchdb-xo_auth
+$ docker build -t causemap/couchdb-docker .
+$ docker run -p 5984:5984 causemap/couchdb-docker
 ```
