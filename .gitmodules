@@ -1,4 +1,4 @@
 [submodule "CouchDB-XO_Auth"]
 	path = CouchDB-XO_Auth
-	url = https://github.com/ocastalabs/CouchDB-XO_Auth.git
+	url = https://github.com/causemap/CouchDB-XO_Auth.git
   branch = develop
