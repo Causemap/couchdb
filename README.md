@@ -10,6 +10,7 @@ Installation
 
 ```bash
 $ git submodule init
+$ git submodule update
 $ docker build -t causemap/couchdb-docker .
 $ docker run -p 5984:5984 causemap/couchdb-docker
 ```
