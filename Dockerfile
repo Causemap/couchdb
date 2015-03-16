@@ -4,7 +4,7 @@ FROM klaemo/couchdb
 RUN apt-get update
 
 # Install software
-RUN apt-get install -y git
+RUN apt-get install -y git make
 
 ADD CouchDB-XO_Auth /usr/local/lib/couchdb/erlang/lib/xo_auth
 COPY config.ini /usr/local/etc/couchdb/config.ini
