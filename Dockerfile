@@ -7,7 +7,7 @@ RUN apt-get update
 RUN apt-get install -y git make
 
 ADD CouchDB-XO_Auth /usr/local/lib/couchdb/erlang/lib/xo_auth
-COPY config.ini /usr/local/etc/couchdb/config.ini
+COPY config.ini /usr/local/etc/couchdb/local.d/causemap.ini
 
 # get the latest rebar
 RUN git clone git://github.com/rebar/rebar.git && \
