@@ -18,4 +18,3 @@ RUN git clone git://github.com/rebar/rebar.git && \
 WORKDIR /usr/local/lib/couchdb/erlang/lib/xo_auth
 
 RUN make
-CMD ["couchdb", "-a", "/usr/local/etc/couchdb/config.ini"]
